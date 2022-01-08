@@ -1,2 +1,1 @@
-# thuattoan
-bug-reporting
+# Course Resources
