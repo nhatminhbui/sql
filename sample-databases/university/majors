@@ -1,0 +1,29 @@
+-- Engineering
+INSERT INTO majors VALUES ('AA', 'Aeronautics & Astronautics');
+INSERT INTO majors VALUES ('BI', 'Bioengineering');
+INSERT INTO majors VALUES ('ME', 'Mechanical Engineering');
+
+-- Science
+INSERT INTO majors VALUES ('CS', 'Computer Science');
+INSERT INTO majors VALUES ('MA', 'Mathematics');
+INSERT INTO majors VALUES ('MD', 'Medicine');
+INSERT INTO majors VALUES ('PS', 'Psychology');
+
+-- Economic
+INSERT INTO majors VALUES ('EC', 'Economic');
+INSERT INTO majors VALUES ('BU', 'Business');
+
+-- Art & History
+INSERT INTO majors VALUES ('PH', 'Philosophy');
+INSERT INTO majors VALUES ('DE', 'Design');
+INSERT INTO majors VALUES ('LA', 'Latin');
+INSERT INTO majors VALUES ('HI', 'History');
+INSERT INTO majors VALUES ('MU', 'Music');
+
+-- Society
+INSERT INTO majors VALUES ('PE', 'Education');
+INSERT INTO majors VALUES ('CU', 'Culture');
+INSERT INTO majors VALUES ('PO', 'Political Science');
+INSERT INTO majors VALUES ('LA', 'Law');
+INSERT INTO majors VALUES ('RS', 'Religious Studies');
+
