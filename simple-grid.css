@@ -16,7 +16,7 @@ body {
 
 .grid {
   width: 100%;
-  max-width: 1028px;
+  max-width: 860px;
   min-width: 720;
   margin: 0 auto;
   overflow: hidden;
@@ -48,17 +48,6 @@ body {
 
 .col-5-12 {
 	width: 41.66%;
-}
-
-.biotemp {
-	float: left;
-  padding-right: 20px; 
-	width: 25%;
-}
-.bio {
-	float: left;
-  padding-right: 20px; 
-	width: 50%;
 }
 
 @media handheld, only screen and (max-width: 720px) {
