@@ -1,0 +1,89 @@
+@font-face {
+  font-family: Proxima;
+  src: url("fonts/Proxima Nova Regular.otf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Proxima;
+  src: url("fonts/Proxima Nova Regular Italic.otf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Proxima;
+  src: url("fonts/Proxima Nova Bold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Proxima;
+  src: url("fonts/Proxima Nova Bold Italic.otf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+body {
+  font-family: Proxima, Roboto, sans-serif;
+  font-size: 16px;
+  color: #333;
+  font-variant-numeric: oldstyle-nums;
+  line-height: 1.6em;
+  letter-spacing: 0.02em;
+  hyphens: auto;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    height: 1px;
+    background-color: #aaa;
+}
+
+a {
+  color: blue;
+  border-bottom: 1px dotted #333;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  border-bottom: 1px dotted #333;
+  color: brown;
+}
+
+
+dt {
+	float: left;
+	width: 8em;
+	padding: 1ex 0.4em 0 0.5em;
+	text-align: right;
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 0 0 8.5em;
+	padding: 1ex 0.5em;
+	border-left: 1px solid #aaa;
+    text-align: justify;
+}
+
+
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 3px #ccc;
+}
+h3:before {
+  padding-right: 5px;
+  content: "\266B";
+}
+h3:after {
+  padding-left: 5px;
+  content: "\266B";
+}
